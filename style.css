@@ -1,0 +1,148 @@
+a{
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+header{ 
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    font-size: x-large;
+   
+}
+nav i{
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    color: black;
+    font-size: 20px;
+}
+.section-img{
+   background-image: url(section.jpg);
+   background-size: cover;
+   width: 1500px;
+   height: 680px;
+   background-position: center;
+}
+.section-span{
+ margin: 400px;
+ padding:10px;
+ font-size: x-large;
+}
+.section-span:hover{
+    color: darkorchid;
+}
+.section-div{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     align-content: center;
+     justify-content: space-evenly;
+}
+button{
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    background-color: rgb(198, 218, 208);
+    transition: width 1s;
+    border-radius:20px;
+}
+.span1{
+    display: none;
+}
+button:hover{
+    width: 80px;
+}
+button:hover .span1{
+    display: inline;
+}
+.perfume{
+   border: 2px solid rgb(231, 195, 150); 
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px; 
+    padding:30px; 
+    width: 200px;
+    height: 240px; 
+}
+#perfume{
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+}
+#p1{
+    font-size: 16px;
+    margin: 5px; 
+}
+.span-perfume{
+    color: brown;
+    text-decoration: solid;
+     margin: 10px;
+     text-align: left; 
+}
+.perfume i{
+    color: white;
+    display: block;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border: 2px solid rgb(177, 100, 100);
+    border-radius: 20px;
+}
+.perfume i:hover{
+color: black;
+size: 10px;
+}
+footer{
+    background-color: rgb(117, 115, 115);
+    color: white;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+
+ }
+footer span{
+    font-size: x-large;
+    text-align: left;
+}
+.span{
+   font-size: x-large;
+    display: block; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon i{
+    padding: 20px;
+    margin: 5px;
+}
+.Paragraph{
+  width: 70%;
+  padding: 20px;
+}
+.icon-1{
+ padding:30px;
+}
+@media(max-width:700px){
+   header{
+       display: flex;
+       flex-direction: column;
+   }
+}
+@media screen and(max-width:992px){
+    .section-div{
+
+        width: 50%;
+    }
+ }
+ @media screen and(max-width:600px){
+    .section-div{
+        widows: 100%;
+    }
+ }
